@@ -6,7 +6,8 @@ exchange](https://xrpl.org/decentralized-exchange.html) which natively supports
 [limit order](https://www.investopedia.com/terms/l/limitorder.asp).
 
 Most of the scripts share a common config file which is specified by flag
-`--secret_file` whose default value is `.secret.json`. The format looks like:
+`--secret_file` whose default value is `.secret.json`. You need to create this
+file yourself. The format looks like:
 
 ```
 { 
