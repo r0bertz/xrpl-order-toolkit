@@ -1,7 +1,7 @@
 # XRPL Order Toolkit
 
-This is a collection of scripts to manipulate [XRPL](https://xrpl.org) orders.
-XRPL has a builtin [decentralized
+This is a collection of scripts to manage [XRPL](https://xrpl.org) orders. XRPL
+has a builtin [decentralized
 exchange](https://xrpl.org/decentralized-exchange.html) which natively supports
 [limit order](https://www.investopedia.com/terms/l/limitorder.asp).
 
