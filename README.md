@@ -1,6 +1,6 @@
 # XRPL Order Toolkit
 
-This is a collection of scripts that manipulates XRPL orders.
+This is a collection of scripts to manipulate XRPL orders.
 
 They share a common config file which is specified by flag `--secret_file` whose
 default value is `.secret.json`. The format looks like:
