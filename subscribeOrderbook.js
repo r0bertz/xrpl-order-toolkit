@@ -46,15 +46,7 @@ api.connect().then(() => {
     issuer_gets: counter.counterparty,
   });
   book.on('model', function(offers) {
-    // book = RippleAPI.formatBidsAndAsks({
-    //   'base': {
-    //     'currency': 'XRP',
-    //   },
-    //   'counter': {
-    //     'currency': 'ALV',
-    //     'counterparty': 'raEQc5krJ2rUXyi6fgmUAf63oAXmF7p6jp'
-    //   }
-    // }, offers);
+    // book = RippleAPI.formatBidsAndAsks(secrets.pair, offers);
     // console.log(book.bids[0].speicification);
     for (var i = 0; i < offers.length; i++) {
       console.log(JSON.stringify(offers[i], null, 2));
