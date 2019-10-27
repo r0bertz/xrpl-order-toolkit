@@ -30,3 +30,9 @@ You can see the live orderbook for any currency pair on the following two websit
 
 * https://xrpcharts.ripple.com
 * https://orderbook.xrp.ninja
+
+## Install dependencies
+
+```
+# npm install -g bignumber.js fs lodash ripple-lib ripple-lib-orderbook ripple-lib-value yargs
+```
