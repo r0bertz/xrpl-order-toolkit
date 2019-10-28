@@ -1,5 +1,5 @@
 const BigNumber = require('bignumber.js');
-const sprintf=require("sprintf-js").sprintf;
+const sprintf=require('sprintf-js').sprintf;
 
 const exchangeRateToPrice = (order) => {
   if (order.specification.direction === 'buy') {

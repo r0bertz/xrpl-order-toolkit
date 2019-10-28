@@ -1,7 +1,7 @@
 #!/usr/bin/node
 const BigNumber = require('bignumber.js');
 const RippleAPI = require('ripple-lib').RippleAPI;
-const sprintf=require("sprintf-js").sprintf;
+const sprintf=require('sprintf-js').sprintf;
 const orderPrice = require('./orderUtil.js').exchangeRateToPrice;
 const formatAmount = require('./orderUtil.js').formatAmount;
 const fs = require('fs');

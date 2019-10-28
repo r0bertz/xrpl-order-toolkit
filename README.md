@@ -13,7 +13,7 @@ You can see the live orderbook for any currency pair on the following two websit
 ## Install dependencies
 
 ```bash
-# npm install -g bignumber.js fs lodash ripple-lib ripple-lib-orderbook ripple-lib-value yargs
+# npm install -g bignumber.js fs lodash ripple-lib ripple-lib-orderbook ripple-lib-value sprintf-js yargs
 ```
 
 ## Configuration
